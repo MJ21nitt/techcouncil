@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Development Initiative</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-col">
+        <a class="navbar-brand" href="#">CDI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sectionhome" data-toggle="tab">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectionaboutus" data-toggle="tab">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectionaboutfaq" data-toggle="tab">FAQ</a>
+                </li>
+            </ul>
+            <form id="searchForm" class="form-inline my-2 my-lg-0">
+                <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="breadcrumb-container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#sectionhome" data-toggle="tab">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Current Section</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="tab-content">
+        <div id="sectionhome" class="container tab-pane active">
+            <div class="row">
+                <div class="col-12 align d-flex flex-column justify-content-center mt-5 bg1 ">
+                    <h1 style="font-size:50px; font-weight:bolder;">ConnecNITT</h1>
+                </div>
+            </div>
+        </div>
+        <div id="sectionaboutus" class="container tab-pane fade">
+            <div class="m-2 p-2">
+                <h2 style="text-align:center;"><span style="font-weight:bolder;">About Us</span></h2>
+                <hr class="colored-hr">
+                <p>
+                    Welcome to the ConnecNITT, a vibrant platform created by the Technical Council to foster collaboration, learning, and growth among our student community. Our mission is to bridge the gap between senior and junior students, providing a space where knowledge flows freely and doubts are cleared with ease. Through interactive sessions, mentorship programs, and collaborative projects, we aim to cultivate an environment of mutual support and shared expertise. Whether you're a seasoned senior ready to share your wisdom or a curious junior eager to learn, our initiative is here to help you thrive academically and personally. Join us in building a stronger, more connected campus community!
+                </p>
+            </div>
+        </div>
+        <div id="sectionaboutfaq" class="container tab-pane fade">
+            <div class="m-2 p-2">
+                <h2 style="text-align:center;"><span style="font-weight:bolder;">FAQ</span></h2>
+                <hr class="colored-hr">
+                <p>What is this platform about?</p>
+                <p>It's to connect with the seniors in NITT</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
